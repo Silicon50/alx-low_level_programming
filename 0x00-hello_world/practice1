@@ -1,0 +1,12 @@
+/**
+* arit_operators - "perform specific arithemetic operations"
+*
+*Description: "addition, subtraction, division etc"
+*
+return(0)
+*/
+int main(void)
+{
+if ( 5 < 10)
+printf("five is less than ten)
+}
