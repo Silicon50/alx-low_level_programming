@@ -12,11 +12,11 @@
 
 int _isalpha(int c)
 {
-	int c;
 
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
-		_putchar(c);
+		return (1);
 	}
-	_putchar('\n');
+	else
+		return (0);
 }
