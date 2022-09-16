@@ -1,16 +1,21 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * mul - multiples two integer
- * @a: first integer
- * @b: second integer
- * Return: result
+ * mul - multiplies two integers
+ *
+ * @a: input integer
+ * @b: input integer
+ *
+ * Return: 0
  */
 
 int mul(int a, int b)
 {
+	int m;
 
-	printf("%d\n", a * b);
-	return (0);
+	m = a * b;
+
+	{
+		return (m);
+	}
 }
