@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  * puts2 - prints one char.
