@@ -1,10 +1,12 @@
 #include "main.h"
+#include <string.h>
+#include <stdio.h>
 
 /**
- * *print_rev - Prints a reserve string
- * *@s: parameter
- * *Return: Nothing
- * */
+ *print_rev - Prints a reserve string
+ *@s: parameter
+ *Return: Nothing
+ */
 
 void print_rev(char *s)
 {
