@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
+ * reset_to_98 - reset code no
+ *@n: the parameter for the function
  * Return: Always 0.
  */
-int main(void)
+void reset_to_98(int *n)
 {
 	int n;
 	int *p;
