@@ -21,3 +21,4 @@ char *_strstr(char *haystack, char *needle)
 		haystack -= (k - 1), needle -= k;
 	}
 	return ('\0');
+}
