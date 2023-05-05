@@ -16,11 +16,10 @@ int main(void)
 {
 	for (j = 1; j <= 8; j++)
 {
-	if (i < j)
-{
 	for (k = 2; k <= 9; k++)
-															{
-	if (j < k)
+{
+	if (i < j && j < k)
+
 {
 	putchar(i + '0');
 	putchar(j + '0');
@@ -30,7 +29,6 @@ int main(void)
 {
 	putchar(',');
 	putchar(' ');
-}
 }
 }
 }
