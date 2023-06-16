@@ -4,7 +4,6 @@
 
 /**
  * f4 - finds the biggest number
- *
  * @usrn: username
  * @len: length of username
  * Return: the biggest number
@@ -33,7 +32,6 @@ int f4(char *usrn, int len)
 
 /**
  * f5 - multiplies each char of username
- *
  * @usrn: username
  * @len: length of username
  * Return: multiplied char
@@ -56,7 +54,6 @@ int f5(char *usrn, int len)
 
 /**
  * f6 - generates a random char
- *
  * @usrn: username
  * Return: a random char
  */
@@ -78,7 +75,6 @@ int f6(char *usrn)
 
 /**
  * main - Entry point
- *
  * @argc: arguments count
  * @argv: arguments vector
  * Return: Always 0
