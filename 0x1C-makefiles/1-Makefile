@@ -1,0 +1,7 @@
+#this is a make file using main.c and school.c
+# with two variables CC and SRC
+
+CC = gcc
+SRC = main.c school.c
+all: $(SRC)
+	$(CC) $(SRC) -o school
